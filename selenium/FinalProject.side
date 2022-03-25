@@ -1,0 +1,817 @@
+{
+  "id": "703a3afc-2cc5-48a6-a693-29afd18f69db",
+  "version": "2.0",
+  "name": "Final Project",
+  "url": "https://www.power.fi",
+  "tests": [{
+    "id": "6ecb32c2-accd-479b-9b45-bfd675918f0e",
+    "name": "01_Test_01-03",
+    "commands": [{
+      "id": "0a1cf309-4a75-4fa0-9692-77b681fb0e89",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caea8255-abe7-4642-b5f6-a1c25d49337f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e3af112-c1eb-4b36-8773-641527cd913b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 13 pro"
+    }, {
+      "id": "e0ed4ea7-6845-4e43-80e5-c8ba7a5d6393",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .fa",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .fa", "css:finder"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b711f5b-33a3-48b2-b81a-3b2461a63cec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .fa",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .fa", "css:finder"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6a003fd-d20e-48d8-a992-66889db43c17",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebfda377-76f1-4b3c-824c-68ac60314529",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-spacer-mini > img",
+      "targets": [
+        ["css=.mb-spacer-mini > img", "css:finder"],
+        ["xpath=//img[@alt='Power logo']", "xpath:img"],
+        ["xpath=//div[@id='page-header-logo']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "512c56be-6a80-43b1-920d-4adfea312b88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "453396e2-65bb-49f8-87b3-105bd7910a9f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 13 pro"
+    }, {
+      "id": "a4ae95b3-88a1-4ac7-aa3d-3a6cb7c8fc21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .fa",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .fa", "css:finder"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "724b2c23-9257-41bf-b8f4-05a545e48fd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-spacer-mini > img",
+      "targets": [
+        ["css=.mb-spacer-mini > img", "css:finder"],
+        ["xpath=//img[@alt='Power logo']", "xpath:img"],
+        ["xpath=//div[@id='page-header-logo']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7ccc75b5-eec7-4cec-86a5-d465ff0af437",
+    "name": "02_Test_04-05",
+    "commands": [{
+      "id": "69f3f702-a65b-441c-8767-8436024bbc53",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7dfa094-af9c-4fa1-82de-1f5eaff91b80",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e77578f0-d6a9-42b9-89d8-0246d9813f15",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=.col-sm-4:nth-child(1) > .image-list-link > .ng-star-inserted > .ng-star-inserted",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fadf343-6693-4a7a-b8d8-6c134360438a",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=.col-sm-4:nth-child(1) > .image-list-link > .ng-star-inserted > .ng-star-inserted",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5dd4e22-9be8-4fa7-abda-d72d221ed9fb",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cdba8103-67a4-4194-a637-fb0f710c9548",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form/input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f26d9a2-304c-4370-9ff2-dffbde6902a6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button/i",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .fa", "css:finder"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78c30e2a-2632-418e-aaf5-26d58014c06b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0040ba33-5574-48f4-b9b4-9ee27fd42bbe",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,53.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bab30d31-512b-43d4-9696-e922933961b0",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "linkText=Ostoskori",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85ffac42-0523-470b-8738-43be6e1b81f4",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "linkText=Ostoskori",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3cada06-e52e-4175-b6e9-cb8cba45d849",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .fa",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7e48022-76f6-484d-832c-8597ec89ef88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00423b80-a86b-4a77-af9e-c15f3ba25fde",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=.pwr-icon-chat",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cf68c3a-e858-47cf-8676-7a874a838ecc",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=.pwr-icon-chat",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "885c1e9e-fa79-4fbb-b1a7-1d3a3113ea46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .fa",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "809bc498-78ec-4379-9785-fa732cb226d7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [],
+      "value": "iphone 12 pro"
+    }, {
+      "id": "80eeee55-8d20-44a6-ace7-cb927d61936e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .fa",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "431b20b5-0d7c-4ea9-a9ee-5e82549ff08d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6393452-19d1-4f86-82f8-5223aabbe567",
+      "comment": "",
+      "command": "click",
+      "target": "css=.startBubble-0-0-1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6171183-90fa-4c0d-a7dc-067eb6297ac5",
+      "comment": "",
+      "command": "click",
+      "target": "id=enteredFormName",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53b2fb5b-be08-469a-b666-e296d1260855",
+      "comment": "",
+      "command": "click",
+      "target": "id=enteredChatId",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f370d653-e1d5-4ece-867a-f288a8d023e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-0-0-5 > h2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37dd60b6-0af3-49a3-a7fd-655e05c5c373",
+      "comment": "",
+      "command": "click",
+      "target": "css=.puzzel-chat-1-6-13-close",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5af37312-93ef-439b-a9e1-d1162f74006f",
+    "name": "05_Test_08-09",
+    "commands": [{
+      "id": "fecf9415-4939-45d2-9d13-a985734f72e6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e63eeeb-c55c-48fc-b92b-4e988c93b730",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9925e3b4-55ea-43cb-8c02-bc182fc60c58",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=MyPOWER",
+      "targets": [
+        ["linkText=MyPOWER", "linkText"],
+        ["css=.mypage-link-container .primary-dark", "css:finder"],
+        ["xpath=(//a[contains(@href, '/mypower/')])[4]", "xpath:href"],
+        ["xpath=//pwr-my-page-link/div/pwr-lib-header-button/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d51de948-1d89-4b87-bb44-45f996515ab7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=MyPOWER",
+      "targets": [
+        ["linkText=MyPOWER", "linkText"],
+        ["css=.mypage-link-container .primary-dark", "css:finder"],
+        ["xpath=(//a[contains(@href, '/mypower/')])[4]", "xpath:href"],
+        ["xpath=//pwr-my-page-link/div/pwr-lib-header-button/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "474bdd06-9af4-413c-a97a-c8ad93910654",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pwr-icon-cart",
+      "targets": [
+        ["css=.pwr-icon-cart", "css:finder"],
+        ["xpath=//pwr-cart-indicator/div/pwr-lib-header-button/a/div/pwr-lib-icon/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3a64322-ddc5-4cf0-9167-f1486a195215",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-minus",
+      "targets": [
+        ["css=.fa-minus", "css:finder"],
+        ["xpath=//div[@id='cdk-overlay-0']/pwr-add-to-cart-dialog/div/div/div[2]/div/div/pwr-product-line/div/div/div[2]/div/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad3ebddd-cd13-4c27-9e04-d7dcc0dfe635",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-spacer-mini > img",
+      "targets": [
+        ["css=.mb-spacer-mini > img", "css:finder"],
+        ["xpath=//img[@alt='Power logo']", "xpath:img"],
+        ["xpath=//div[@id='page-header-logo']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83e8723d-bdec-4844-a7c3-dff8e5a0a694",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pwr-icon-cart",
+      "targets": [
+        ["css=.pwr-icon-cart", "css:finder"],
+        ["xpath=//pwr-cart-indicator/div/pwr-lib-header-button/a/div/pwr-lib-icon/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2029122d-d764-404d-897b-544cb609c0da",
+    "name": "03_Test_06",
+    "commands": [{
+      "id": "cc564773-9509-4a8b-bbec-aa44297b2f8d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77feb371-9096-417a-88d7-b147886a63ef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69b09a1c-b42d-46eb-b59d-784633049492",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form/input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a4dbd8c-f58b-4ffb-8230-5aa2ab07cb45",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 12"
+    }, {
+      "id": "4a50caaf-a14e-40f1-b8a7-449d43a95989",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(.,'iPhone 12 Pro')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "286c4c98-3333-4b1c-b0ee-94b834a7712e",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=.page-header-button-container:nth-child(1) .primary-dark",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65d33b0b-2c77-4cc2-8a9f-5322170aecf2",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=.page-header-button-container:nth-child(1) .primary-dark",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4649f119-d689-47dd-b9a0-aee0c585c921",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'iPhone 12 Pro - Osta nyt')]",
+      "targets": [
+        ["css=.btn-row:nth-child(3) > .btn", "css:finder"],
+        ["xpath=//button[@onclick='scrollToElementBeginning()']", "xpath:attributes"],
+        ["xpath=//div[@id='textpage-ribbons']/pwr-ribbon-main/div/section[3]/div/div/div[2]/div/div/pwr-ribbon-wrapper/pwr-static-html/section/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'iPhone 12 Pro - Osta nyt')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9e2364f-0ea2-4884-87b5-0d379aae8a5b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//pwr-lib-carousel-wrapper[@id='product-258541108']/div/swiper/div[2]/div/pwr-product-item-v2/a/div/pwr-product-image/div/picture/img",
+      "targets": [
+        ["css=#product-258541108 .swiper-slide:nth-child(1) .lazyloaded:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='APPLE IPHONE 12 PRO 128 GT GRAFIITTI']", "xpath:img"],
+        ["xpath=//pwr-lib-carousel-wrapper[@id='product-258541108']/div/swiper/div[2]/div/pwr-product-item-v2/a/div/pwr-product-image/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div/pwr-product-image/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2678e805-97be-4491-bf36-f2a18cb225b0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba3c8831-dd82-4327-90e5-98b6ebda078b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1661.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78c4dc36-443a-4b9f-810c-4c682defc9f2",
+      "comment": "",
+      "command": "//pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fea9f2bb-6bd5-4b4b-aff3-b7c367bfd765",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//section/button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a5e1599-7220-4489-915c-c69e92edb2e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.puzzel-chat-1-6-13-close",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5f61326-2933-4d1f-9017-78d9db9a79ce",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'add to cart')]",
+      "targets": [
+        ["css=.btn-mega", "css:finder"],
+        ["xpath=//section[@id='product-intro']/div[2]/div/div/div[4]/div/div[2]/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1870b431-d68a-4819-a9d8-6b9dfb4f5da0",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=.btn > .ng-star-inserted > font > font",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad3fba4a-6f2e-4681-8179-b9e4ca48c4a0",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "css=.btn > .ng-star-inserted > font > font",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60ea7171-de99-4aef-89b6-54820a817bcd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1c016fe1-04dc-40be-a2d2-6c6436692dda",
+    "name": "04_Test_07",
+    "commands": [{
+      "id": "a261d271-6dfe-4719-90b3-dbf4d0cdf63b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9675328a-7900-4fb9-a215-1ee8a6352e34",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adb7859a-58f0-41cc-a02b-2a68e1aad52d",
+      "comment": "",
+      "command": "//pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9b69a72-e5b9-4bbb-b7a2-047a6361c1c9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, '/checkout/')]",
+      "targets": [
+        ["linkText=€ 999", "linkText"],
+        ["css=.secondary", "css:finder"],
+        ["xpath=//a[contains(@href, '/checkout/')]", "xpath:href"],
+        ["xpath=//pwr-cart-indicator/div/pwr-lib-header-button/a", "xpath:position"],
+        ["xpath=//a[contains(.,'€ 999')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a133d0a-ce66-4fff-9c0e-835dda6b1321",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/font/font",
+      "targets": [
+        ["css=.mt-spacer-mini font > font", "css:finder"],
+        ["xpath=//div/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bfdd47af-cc62-4a15-9843-6f53dc68cfb9",
+    "name": "00_basics",
+    "commands": [{
+      "id": "4a53b463-32da-482f-aba9-401826b42de6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10b75174-2403-4a71-b8cb-000730b1ae87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df44701-38fb-4933-ae06-6d30054779ca",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 13 pro"
+    }, {
+      "id": "e728970b-59fe-4bae-852a-fc69b6b3920d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .fa",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .fa", "css:finder"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8c5fc5b-709f-4bfa-b0c8-dc85019a7666",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .fa",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .fa", "css:finder"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40c1bbf0-08bd-44a0-acf6-2df429d9fb86",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c74f7f1-55b6-44b6-aa47-85a35073eb2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-spacer-mini > img",
+      "targets": [
+        ["css=.mb-spacer-mini > img", "css:finder"],
+        ["xpath=//img[@alt='Power logo']", "xpath:img"],
+        ["xpath=//div[@id='page-header-logo']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb019d5d-168e-4cad-bb55-3fd8fd44fe81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8623ee13-ae4b-42e7-92ea-94b7871992fd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.ng-tns-c150-1 > .search-input",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .search-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "iphone 13 pro"
+    }, {
+      "id": "eb6225af-2f23-4bfe-a233-06354b63e547",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c150-1 > .fa",
+      "targets": [
+        ["css=.ng-tns-c150-1 > .fa", "css:finder"],
+        ["xpath=//div[@id='site-search']/div/pwr-search-input/form/button/i", "xpath:idRelative"],
+        ["xpath=//button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7077e1d-a805-45a4-94cc-c9987faefbd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mb-spacer-mini > img",
+      "targets": [
+        ["css=.mb-spacer-mini > img", "css:finder"],
+        ["xpath=//img[@alt='Power logo']", "xpath:img"],
+        ["xpath=//div[@id='page-header-logo']/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4b6728c5-4193-4749-9791-48da4511232e",
+    "name": "t7",
+    "commands": [{
+      "id": "1462b664-3a0d-44d8-a642-e74ab0c18733",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "549f6210-1391-449a-9398-22c373a8e059",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "577e8d26-dfbc-43c7-afbc-dfb91fc9c9a4",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "linkText=MyPOWER",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ad86358-22f6-465b-8fc3-3552f517f03c",
+      "comment": "",
+      "command": "//mouseOut",
+      "target": "linkText=MyPOWER",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "284d7d03-3121-4a4e-b620-f34266eb70b4",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=.pwr-icon-cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "589ce896-3487-4af7-9172-96cd456ae0c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pwr-icon-cart",
+      "targets": [
+        ["css=.pwr-icon-cart", "css:finder"],
+        ["xpath=//pwr-cart-indicator/div/pwr-lib-header-button/a/div/pwr-lib-icon/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afd47b6e-1b52-4fd4-9dd2-8d97d54906c2",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4d7ecc0-65e8-49ce-9028-3523c96a5c5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pwr-icon-trash",
+      "targets": [
+        ["css=.pwr-icon-trash", "css:finder"],
+        ["xpath=//section[@id='basket']/div[2]/div/pwr-checkout-product-line/div/pwr-checkout-addons/div/div/pwr-insurance-selection/pwr-lib-accordion/div/div[2]/div/div/div/div[2]/pwr-lib-icon-button/button/pwr-lib-icon/i", "xpath:idRelative"],
+        ["xpath=//button/pwr-lib-icon/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb5d1894-107e-4467-9dda-b2591bc853c1",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//button/div/font/font",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07d32d1e-7b3a-493b-94f5-b11da420ce74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dash:nth-child(1) > font > font",
+      "targets": [
+        ["css=.dash:nth-child(1) > font > font", "css:finder"],
+        ["xpath=//main/div/div/div/a/font/font", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "21d0780e-6553-4cea-b0c8-ae2ca7d1658c",
+    "name": "default",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4b6728c5-4193-4749-9791-48da4511232e"]
+  }],
+  "urls": ["https://www.power.fi/"],
+  "plugins": []
+}
